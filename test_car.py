@@ -3,6 +3,7 @@ from car import Car
 
 
 class TestCar(TestCase):
+    
     def setUp(self):
         self.car = Car()
 
